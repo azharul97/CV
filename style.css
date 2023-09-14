@@ -88,7 +88,7 @@ header{
 header .user img{
 	height: 9rem;
 	width: 9rem;
-	border-radius: 50%;
+	border-radius: 55%;
 	object-fit: fill;
 	margin-bottom: 0.5rem;
 	border:.5rem solid var(--yellow);
