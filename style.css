@@ -751,6 +751,235 @@ button:hover{
 
 
 
+.experience,
+.projects {
+  width: 100%;
+  background-color: #111;
+  padding: 30px 10px;
+  border-radius: 20px;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.experience .box-container,
+.projects .box-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 1rem 2rem;
+}
+
+.experience .box-container .box,
+.projects .box-container .box {
+  width: 27rem;
+  margin: 2rem;
+  padding: 2rem;
+  background: #222;
+  border-radius: 10px;
+  text-align: left;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.experience .box-container .box h3,
+.projects .box-container .box h3 {
+  font-size: 2rem;
+  color: #fff;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.experience .box-container .box h4,
+.projects .box-container .box h4 {
+  font-size: 1.7rem;
+  color: #eee;
+  font-weight: 400;
+  margin-bottom: 0.5rem;
+}
+
+.experience .box-container .box p,
+.projects .box-container .box p {
+  font-size: 1.4rem;
+  color: #ccc;
+  margin-top: 0.8rem;
+  line-height: 1.6;
+  text-align: justify;
+}
+
+.experience .box-container .box span,
+.projects .box-container .box span {
+  display: inline-block;
+  font-size: 1.3rem;
+  color: #fff;
+  background: var(--yellow);
+  padding: 0.5rem 1.5rem;
+  border-radius: 5rem;
+  margin-top: 1rem;
+}
+
+.experience .box-container .box i,
+.projects .box-container .box i {
+  font-size: 2.5rem;
+  color: var(--yellow);
+  margin-right: 1rem;
+}
+
+/* Media Queries for Responsive Design */
+
+@media (max-width: 768px) {
+  .experience .box-container,
+  .projects .box-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .experience .box-container .box,
+  .projects .box-container .box {
+    width: 100%;
+    margin: 1rem 0;
+  }
+}
+
+@media (max-width: 400px) {
+  .experience,
+  .projects {
+    padding: 20px 5px;
+  }
+
+  .experience .box-container .box,
+  .projects .box-container .box {
+    width: 100%;
+    padding: 1rem;
+  }
+
+  .experience .box-container .box h3,
+  .projects .box-container .box h3 {
+    font-size: 1.6rem;
+  }
+
+  .experience .box-container .box p,
+  .projects .box-container .box p {
+    font-size: 1.2rem;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
